@@ -11,3 +11,4 @@ Route::get('/user', function (Request $request) {
 
 //Register route
 Route::post('/register', [AuthController::class, 'register']);
+Route::post('/login', [AuthController::class, 'login']);
